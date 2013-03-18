@@ -200,7 +200,7 @@ $section-bottom-margin:          emCalc(20px) !default;
 }
 
 
-@if $include-html-classes {
+@if $include-html-section-classes {
 
   /* Sections */
   .section-container {
@@ -208,6 +208,13 @@ $section-bottom-margin:          emCalc(20px) !default;
 
     section,
     .section { @include section; }
+  }
+
+  .section-container.tabs {
+    @include section-container(false, tabs);
+
+    section,
+    .section { @include section(tabs); }
   }
 
   @media #{$small} {
@@ -228,13 +235,6 @@ $section-bottom-margin:          emCalc(20px) !default;
 
       section,
       .section { @include section(horizontal-nav); }
-    }
-
-    .section-container.tabs {
-      @include section-container(false, tabs);
-
-      section,
-      .section { @include section(tabs); }
     }
   }
 
