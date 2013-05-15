@@ -1,15 +1,18 @@
-<body>
-
 <!DOCTYPE html>
-<!--[if IE 8]>         <html class="no-js lt-ie9" lang="en"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
 
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Foundation 4</title>
-
-  
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+        
+        
         <!-- Hammer reload -->
           <script>
             setInterval(function(){
@@ -33,32 +36,113 @@
         <!-- /Hammer reload -->
       
 
-  <link rel='stylesheet' href='assets/css/normalize.css'>
-<link rel='stylesheet' href='assets/css/vendor/normalize.css'>
-  <link rel='stylesheet' href='assets/css/styles.css'>
+        <link rel="stylesheet" href="assets/css/normalize.css">
+        <link rel="stylesheet" href="assets/css/main.css">
+        <link rel="stylesheet" href="assets/css/styles.css">
+        <script src="assets/js/vendor/modernizr-2.6.2.min.js"></script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
 
-  <script src='assets/js/vendor/custom.modernizr.js'></script>
+        <header class="clearfix">
+        	<div class="container">
+        		<h1><a href="/"><span>CCYP</span></a></h1>
+        		<ul id="nav-sub" class="nav-bar">
+	        		<li class="first"><a href="http://ccyp.20miletech.net/events/">Events</a>
+	        			<ul>
+	        				<li class="first"><a href="http://ccyp.20miletech.net/events/photo-gallery/">Photo Gallery</a></li>
+	        				<li class="last"><a href="http://ccyp.20miletech.net/events/events-calendar/">Events Calendar</a></li>
+	        			</ul>
+	        		</li>
+	        		<li class="here"><a href="http://ccyp.20miletech.net/membership-sponsorship/">Membership &amp; Sponsorship</a>
+	        			<ul>
+	        				<li class="first"><a href="http://ccyp.20miletech.net/membership-sponsorship/membership-info/">Membership Info</a></li>
+	        				<li><a href="http://ccyp.20miletech.net/membership-sponsorship/membership-directory/">Membership Directory</a></li>
+	        				<li><a href="http://ccyp.20miletech.net/membership-sponsorship/perks-program/">Perks Program</a>
+	        					<ul>
+		        					<li class="first last"><a href="http://ccyp.20miletech.net/membership-sponsorship/perks-program/perks/">Perks</a></li>
+		        				</ul>
+		        			</li>
+		        			<li><a href="http://ccyp.20miletech.net/membership-sponsorship/list-of-sponsors/">List of Sponsors</a></li>
+		        			<li><a href="http://ccyp.20miletech.net/membership-sponsorship/sponsorship-info/">Sponsorship Info</a></li>
+	        			</ul>
+	        		</li>
+	        		<li><a href="http://ccyp.20miletech.net/career-resources/">Career Resources</a>
+	        			<ul>
+	        				<li class="first"><a href="http://ccyp.20miletech.net/career-resources/job-board/">Job Board</a></li>
+	        				<li><a href="http://ccyp.20miletech.net/career-resources/career-connect/">Career Connect</a>
+	        					<ul>
+		        					<li class="first last"><a href="http://ccyp.20miletech.net/career-resources/career-connect/past-winners/">Past Winners</a></li>
+		        				</ul>
+		        			</li>
+		        			<li class="last"><a href="http://ccyp.20miletech.net/career-resources/positively-different/">Positively Different</a>
+		        				<ul>
+			        				<li class="first last"><a href="http://ccyp.20miletech.net/career-resources/positively-different/past-winners/">Past Winners</a></li>
+			        			</ul>
+			        		</li>
+			        	</ul>
+	        		</li>
+	        		<li><a href="http://ccyp.20miletech.net/support/">Support</a></li>
+	        		<li class="last"><a href="http://ccyp.20miletech.net/about/">About</a>
+	        			<ul>
+		        			<li class="first"><a href="http://ccyp.20miletech.net/about/news/">News</a></li>
+		        			<li><a href="http://ccyp.20miletech.net/about/advocacy/">Advocacy</a></li>
+		        			<li><a href="http://ccyp.20miletech.net/about/board-of-directors/">Board of Directors</a></li>
+		        			<li><a href="http://ccyp.20miletech.net/about/committees/">Committees</a></li>
+		        			<li class="last"><a href="http://ccyp.20miletech.net/about/resources/">Resources</a></li>
+		        		</ul>
+	        		</li>
+	        	</ul>
+	        	<ul id="mini-nav">
+	        		<li><a id="mini-nav-contact" href="contact">Contact&raquo;</a></li>
+	        		<li><a id="mini-nav-login" href="member">Member Login&raquo;</a></li>
+	        	</ul>
+        	</div>
+        </header>
+        <section id="home_top">
+        	<div class="container clearfix">
+        		<h2>CCYP <span class="blue">connects</span> Cape Cod's emerging leaders,<br>
+	        	<span class="yellow">engages</span> them in the community,<br>
+	        	and helps them <span class="green">advance</span>.
+	        	</h2>
+	        	<div id="video">
+	        		<iframe width="460" height="259" src="http://www.youtube.com/embed/qeH87zadpUM" frameborder="0" allowfullscreen></iframe>
+	        	</div>
+	        	<div id="testimonial">
+	        		<p>Etiam porta sem malesuada magna mollis euismod. Cras mattis consectetur purus sit amet fermentum. Nullam id dolor id nibh ultricies vehicula ut id elit.”</p>
+	        		<p id="attr">Ellen Cho, Acme Co.</p>
+	        	</div>
+        	</div>
+        </section>
+        <section id="home_middle">
+        	<div class="container clearfix">
+        		<div id="for_you">
+        			<h3>What can CCYP do for you?</h3>
+        			<p>Partnering with the CCYP allows you to become connected with a diverse group of community minded individuals who call Cape Cod home and have a vested interest in the future of the region.</p>
+        		</div>
+        		<div id="arrows">
+        		</div>
+        		<div id="action">
+        			<ul>
+        				<li><a href="#">Join</a></li>
+        				<li><a href="#">Sponsor</a></li>
+        				<li><a href="#">Donate</a></li>
+        		</div>
+        	</div>
+        </section>
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="assets/js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+        <script src="assets/js/plugins.js"></script>
+        <script src="assets/js/main.js"></script>
 
-</head>
-<body>
-
-index
-
-    <script src='assets/js/vendor/jquery.js'></script>
-    <script src='assets/js/vendor/foundation/foundation.js'></script>
-    <script src='assets/js/vendor/foundation/foundation.alerts.js'></script>
-    <script src='assets/js/vendor/foundation/foundation.clearing.js'></script>
-    <script src='assets/js/vendor/foundation/foundation.cookie.js'></script>
-    <script src='assets/js/vendor/foundation/foundation.dropdown.js'></script>
-    <script src='assets/js/vendor/foundation/foundation.forms.js'></script>
-    <script src='assets/js/vendor/foundation/foundation.joyride.js'></script>
-    <script src='assets/js/vendor/foundation/foundation.magellan.js'></script>
-    <script src='assets/js/vendor/foundation/foundation.orbit.js'></script>
-    <script src='assets/js/vendor/foundation/foundation.placeholder.js'></script>
-    <script src='assets/js/vendor/foundation/foundation.reveal.js'></script>
-    <script src='assets/js/vendor/foundation/foundation.section.js'></script>
-    <script src='assets/js/vendor/foundation/foundation.tooltips.js'></script>
-    <script src='assets/js/vendor/foundation/foundation.topbar.js'></script>
-	<script src='assets/js/script.js'></script>
-</body>
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+        <script>
+            var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
+            (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+            g.src='//www.google-analytics.com/ga.js';
+            s.parentNode.insertBefore(g,s)}(document,'script'));
+        </script>
+    </body>
 </html>
