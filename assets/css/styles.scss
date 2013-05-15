@@ -98,58 +98,14 @@ header {
 		font-size: 20px;
 		color: #9C9C9C;
 		line-height: 26px;
-		background: url(images/quote.png) no-repeat 27px 16px;
+		background: url(images/quote.png) no-repeat 27px 14px;
 		p {
 			margin: 12px 0;
 		}
 		#attr {
 			font-size: 16px;
-			color: $blue;
+			color: #3EB5E8;
 			line-height: 22px;
 		}
-	}
-}
-#home_middle {
-	background: $blue;
-	color: #fff;
-	height: 111px;
-	
-	#for_you {
-		float: left;
-		width: 445px;
-		h3 {
-			font-weight: normal;
-			font-size: 16px;
-			line-height: 40px;
-			margin: 0;
-		}
-		p {
-			font-size: 13px;
-			line-height: 18px;
-			margin: 0;
-		}
-	}
-	#arrows {
-		background: url(images/arrows.png);
-		float: left;
-		width: 217px;
-		height: 229px;
-		margin-top: -66px;
-	}
-	#action {
-		float: left;
-			ul {
-				list-style: none;
-				font-size: 20px;
-				line-height: 27px;
-				text-transform: uppercase;
-				margin: 0;
-				padding: 10px 38px;
-				
-				a {
-					color: #fff;
-					text-decoration: none;
-				}
-			}
 	}
 }
