@@ -2,6 +2,8 @@
 $dark-bg: #333;
 $dark-bg-text: #f1f1f1;
 
+.page-content ul {padding-left: 2em;}
+
 .ico-social {
 	display: inline-block;
 	width: 32px; height: 32px;
@@ -18,4 +20,9 @@ $dark-bg-text: #f1f1f1;
 .photo-right {
 	float: right;
 	margin: 1rem 0 1rem 1rem;
+}
+
+.photo-right {
+	float: left;
+	margin: 1rem 1rem 0 1rem;
 }
