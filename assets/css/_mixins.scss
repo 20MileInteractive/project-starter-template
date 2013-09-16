@@ -1,5 +1,1 @@
 // Mixings
-
- @function remCalc($pxWidth) {
-   @return $pxWidth / $em-base * 1rem;
- }
